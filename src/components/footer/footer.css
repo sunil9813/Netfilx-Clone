@@ -1,0 +1,40 @@
+footer {
+  background-color: #191919;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr;
+  grid-gap: 30px;
+}
+footer ul {
+  margin-bottom: 30px;
+}
+footer ul li {
+  margin-right: 30px;
+}
+footer i {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  line-height: 40px !important;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+footer .img {
+  margin-top: 40px;
+}
+footer span {
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
